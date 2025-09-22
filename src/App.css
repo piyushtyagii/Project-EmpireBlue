@@ -3,6 +3,7 @@
   background-color: white;
  height:auto;
  position: sticky;
+ z-index: 1000;
  top: 0;
 
 }
@@ -78,9 +79,16 @@ width: 100%;
 #Section-1{
 
   margin: 5rem 12rem;
-  border-bottom: 11px solid white;
-  border-radius: 100px;
   
+}
+#Section1-sub2{
+   width: 100%;
+}
+#Section1-sub2 svg{
+   width: 100%;
+   height: 150px;
+   position: relative;
+   bottom: 12rem;
 }
 #Section1-sub1-left img{
   width:500px;
@@ -185,7 +193,7 @@ background-color: #0072ff;
   overflow: hidden;
 }
 #Section-2{
-  padding: 5rem 12rem;
+  padding: 0rem 12rem;
 }
 #Section2-sub-left-text{
   display: flex;
@@ -280,7 +288,8 @@ background-color: #0072ff;
   flex-direction: row;
 }
 #Section-4{
-  padding: 6rem 10rem;
+  padding: 0rem 10rem;
+  padding-top: 3rem;
 }
 #Section4-sub-bottom{
   display:flex;
@@ -322,9 +331,19 @@ background-color: #0072ff;
     font-size: 1rem;
     color: rgb(62, 62, 62);
     margin:0;
-}
+  }
+  #Section5-outer{
+    padding: 0rem 0rem;
+  }
 #Section-5{
   padding: 5rem 8rem;
+}
+#Section5-topsvg svg{
+  width: 100%;
+  height: 140px;
+  transform: scaleY(-1);
+  position: relative;
+  top: 10rem;
 }
 #Section-5-sub{
   display: flex;
